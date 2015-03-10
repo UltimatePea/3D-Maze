@@ -15,6 +15,18 @@
 		E758EB361AAC688E002A2F6A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E758EB351AAC688E002A2F6A /* Images.xcassets */; };
 		E758EB391AAC688E002A2F6A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E758EB371AAC688E002A2F6A /* LaunchScreen.xib */; };
 		E758EB451AAC688E002A2F6A /* _D_MazeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E758EB441AAC688E002A2F6A /* _D_MazeTests.m */; };
+		E758EB501AAC819A002A2F6A /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = E758EB4F1AAC819A002A2F6A /* Node.m */; };
+		E758EB541AAC81B8002A2F6A /* Position.m in Sources */ = {isa = PBXBuildFile; fileRef = E758EB531AAC81B8002A2F6A /* Position.m */; };
+		E758EB571AAC88E7002A2F6A /* Boarder.m in Sources */ = {isa = PBXBuildFile; fileRef = E758EB561AAC88E7002A2F6A /* Boarder.m */; };
+		E758EB5A1AAC9D65002A2F6A /* NodeGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = E758EB591AAC9D65002A2F6A /* NodeGrid.m */; };
+		E76AA1811AAF51E9000637AA /* Maze.m in Sources */ = {isa = PBXBuildFile; fileRef = E76AA1801AAF51E9000637AA /* Maze.m */; };
+		E76AA1871AAF6AED000637AA /* CoordinateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E76AA1861AAF6AED000637AA /* CoordinateManager.m */; };
+		E76AA18A1AAF6B29000637AA /* MazeScene.m in Sources */ = {isa = PBXBuildFile; fileRef = E76AA1891AAF6B29000637AA /* MazeScene.m */; };
+		E76AA18C1AAF6B39000637AA /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E76AA18B1AAF6B39000637AA /* SceneKit.framework */; };
+		E76AA1941AAF838A000637AA /* UserPanelScene.m in Sources */ = {isa = PBXBuildFile; fileRef = E76AA1931AAF838A000637AA /* UserPanelScene.m */; };
+		E76AA1961AAF8392000637AA /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E76AA1951AAF8392000637AA /* SpriteKit.framework */; };
+		E76AA1981AAF85E6000637AA /* Xcode.png in Resources */ = {isa = PBXBuildFile; fileRef = E76AA1971AAF85E6000637AA /* Xcode.png */; };
+		E76AA19A1AAFA8C8000637AA /* waiting for ads.png in Resources */ = {isa = PBXBuildFile; fileRef = E76AA1991AAFA8C8000637AA /* waiting for ads.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +54,26 @@
 		E758EB3E1AAC688E002A2F6A /* 3D MazeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "3D MazeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E758EB431AAC688E002A2F6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E758EB441AAC688E002A2F6A /* _D_MazeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _D_MazeTests.m; sourceTree = "<group>"; };
+		E758EB4E1AAC819A002A2F6A /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		E758EB4F1AAC819A002A2F6A /* Node.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
+		E758EB521AAC81B8002A2F6A /* Position.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Position.h; sourceTree = "<group>"; };
+		E758EB531AAC81B8002A2F6A /* Position.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Position.m; sourceTree = "<group>"; };
+		E758EB551AAC88E7002A2F6A /* Boarder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Boarder.h; sourceTree = "<group>"; };
+		E758EB561AAC88E7002A2F6A /* Boarder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Boarder.m; sourceTree = "<group>"; };
+		E758EB581AAC9D65002A2F6A /* NodeGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NodeGrid.h; sourceTree = "<group>"; };
+		E758EB591AAC9D65002A2F6A /* NodeGrid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NodeGrid.m; sourceTree = "<group>"; };
+		E76AA17F1AAF51E9000637AA /* Maze.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Maze.h; sourceTree = "<group>"; };
+		E76AA1801AAF51E9000637AA /* Maze.m */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.c.objc; path = Maze.m; sourceTree = "<group>"; tabWidth = 4; };
+		E76AA1851AAF6AE6000637AA /* CoordinateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoordinateManager.h; sourceTree = "<group>"; };
+		E76AA1861AAF6AED000637AA /* CoordinateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoordinateManager.m; sourceTree = "<group>"; };
+		E76AA1881AAF6B29000637AA /* MazeScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MazeScene.h; sourceTree = "<group>"; };
+		E76AA1891AAF6B29000637AA /* MazeScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MazeScene.m; sourceTree = "<group>"; usesTabs = 0; };
+		E76AA18B1AAF6B39000637AA /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
+		E76AA1921AAF838A000637AA /* UserPanelScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserPanelScene.h; sourceTree = "<group>"; };
+		E76AA1931AAF838A000637AA /* UserPanelScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserPanelScene.m; sourceTree = "<group>"; };
+		E76AA1951AAF8392000637AA /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		E76AA1971AAF85E6000637AA /* Xcode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Xcode.png; sourceTree = "<group>"; };
+		E76AA1991AAFA8C8000637AA /* waiting for ads.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "waiting for ads.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +81,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E76AA1961AAF8392000637AA /* SpriteKit.framework in Frameworks */,
+				E76AA18C1AAF6B39000637AA /* SceneKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +99,8 @@
 		E758EB191AAC688D002A2F6A = {
 			isa = PBXGroup;
 			children = (
+				E76AA1951AAF8392000637AA /* SpriteKit.framework */,
+				E76AA18B1AAF6B39000637AA /* SceneKit.framework */,
 				E758EB241AAC688E002A2F6A /* 3D Maze */,
 				E758EB411AAC688E002A2F6A /* 3D MazeTests */,
 				E758EB231AAC688E002A2F6A /* Products */,
@@ -85,8 +121,17 @@
 			children = (
 				E758EB291AAC688E002A2F6A /* AppDelegate.h */,
 				E758EB2A1AAC688E002A2F6A /* AppDelegate.m */,
+				E76AA1971AAF85E6000637AA /* Xcode.png */,
+				E76AA1991AAFA8C8000637AA /* waiting for ads.png */,
 				E758EB2F1AAC688E002A2F6A /* ViewController.h */,
 				E758EB301AAC688E002A2F6A /* ViewController.m */,
+				E76AA1921AAF838A000637AA /* UserPanelScene.h */,
+				E76AA1931AAF838A000637AA /* UserPanelScene.m */,
+				E76AA1881AAF6B29000637AA /* MazeScene.h */,
+				E76AA1891AAF6B29000637AA /* MazeScene.m */,
+				E76AA1851AAF6AE6000637AA /* CoordinateManager.h */,
+				E76AA1861AAF6AED000637AA /* CoordinateManager.m */,
+				E758EB511AAC81AB002A2F6A /* Model */,
 				E758EB321AAC688E002A2F6A /* Main.storyboard */,
 				E758EB351AAC688E002A2F6A /* Images.xcassets */,
 				E758EB371AAC688E002A2F6A /* LaunchScreen.xib */,
@@ -120,6 +165,23 @@
 				E758EB431AAC688E002A2F6A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E758EB511AAC81AB002A2F6A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E76AA17F1AAF51E9000637AA /* Maze.h */,
+				E76AA1801AAF51E9000637AA /* Maze.m */,
+				E758EB4E1AAC819A002A2F6A /* Node.h */,
+				E758EB4F1AAC819A002A2F6A /* Node.m */,
+				E758EB521AAC81B8002A2F6A /* Position.h */,
+				E758EB531AAC81B8002A2F6A /* Position.m */,
+				E758EB551AAC88E7002A2F6A /* Boarder.h */,
+				E758EB561AAC88E7002A2F6A /* Boarder.m */,
+				E758EB581AAC9D65002A2F6A /* NodeGrid.h */,
+				E758EB591AAC9D65002A2F6A /* NodeGrid.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,7 +266,9 @@
 			files = (
 				E758EB341AAC688E002A2F6A /* Main.storyboard in Resources */,
 				E758EB391AAC688E002A2F6A /* LaunchScreen.xib in Resources */,
+				E76AA19A1AAFA8C8000637AA /* waiting for ads.png in Resources */,
 				E758EB361AAC688E002A2F6A /* Images.xcassets in Resources */,
+				E76AA1981AAF85E6000637AA /* Xcode.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,10 +286,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E758EB541AAC81B8002A2F6A /* Position.m in Sources */,
+				E758EB5A1AAC9D65002A2F6A /* NodeGrid.m in Sources */,
+				E758EB501AAC819A002A2F6A /* Node.m in Sources */,
+				E758EB571AAC88E7002A2F6A /* Boarder.m in Sources */,
 				E758EB2B1AAC688E002A2F6A /* AppDelegate.m in Sources */,
 				E758EB281AAC688E002A2F6A /* main.m in Sources */,
 				E758EB311AAC688E002A2F6A /* ViewController.m in Sources */,
+				E76AA1811AAF51E9000637AA /* Maze.m in Sources */,
 				E758EB2E1AAC688E002A2F6A /* _D_Maze.xcdatamodeld in Sources */,
+				E76AA18A1AAF6B29000637AA /* MazeScene.m in Sources */,
+				E76AA1941AAF838A000637AA /* UserPanelScene.m in Sources */,
+				E76AA1871AAF6AED000637AA /* CoordinateManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +488,7 @@
 				E758EB4A1AAC688E002A2F6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E758EB4B1AAC688E002A2F6A /* Build configuration list for PBXNativeTarget "3D MazeTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +497,7 @@
 				E758EB4D1AAC688E002A2F6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
