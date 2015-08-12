@@ -7,7 +7,11 @@
 //
 
 @import SpriteKit;
+#import "MazeScene.h"
 
 @interface UserPanelScene : SKScene
+
+
+@property (strong, nonatomic) MazeScene *Scene3d;
 
 @end

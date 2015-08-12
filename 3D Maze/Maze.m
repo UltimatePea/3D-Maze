@@ -61,7 +61,7 @@
         }
     }
     //let exit be 0,0;
-    self.exitNode = [self.grid nodeAtX:0 nodeAtY:0];
+    self.exitNode = [self.grid nodeAtX:self.grid.width/2 nodeAtY:self.grid.height/2];
     [self executeAlgorithmOnNode:self.exitNode];
     
 }
@@ -110,7 +110,7 @@
         Node *node = obj;
         if (![self isNodeWent:node]) {
             result = NO;
-            NSLog(@"isnodewent%d", [self isNodeWent:node]);
+            //NSLog(@"isnodewent%d", [self isNodeWent:node]);
         }
     }];
     return result;

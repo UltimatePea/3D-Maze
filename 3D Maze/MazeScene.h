@@ -9,9 +9,12 @@
 
 @import SceneKit;
 #import "Maze.h"
+#import "ViewController.h"
 
 @interface MazeScene : SCNScene <SCNSceneRendererDelegate>
 
+@property (strong, nonatomic) ViewController *presentingVC;
+@property (nonatomic) double animationDuration;
 
 - (instancetype)initWithMaze:(Maze *)maze;
 + (instancetype)mazeSceneWithMaze:(Maze *)maze;
@@ -20,5 +23,8 @@
 - (void)swipedRight:(id)sender;
 - (void)tap:(id)sender;
 - (void)pinch:(id)sender;
+- (void)exit:(id)sender;
+
+
 
 @end

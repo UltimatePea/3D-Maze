@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E711FC731AB894F0007D34AB /* eye.png in Resources */ = {isa = PBXBuildFile; fileRef = E711FC721AB894F0007D34AB /* eye.png */; };
+		E72BF9CA1B2AD9AF00ED7BF9 /* HelpIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = E72BF9C91B2AD9AF00ED7BF9 /* HelpIcon.m */; };
+		E72BF9D11B2AE0FE00ED7BF9 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E72BF9D01B2AE0FE00ED7BF9 /* ImageViewController.m */; };
+		E72BF9D51B2AE5D900ED7BF9 /* tutor.png in Resources */ = {isa = PBXBuildFile; fileRef = E72BF9D41B2AE5D900ED7BF9 /* tutor.png */; };
 		E758EB281AAC688E002A2F6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E758EB271AAC688E002A2F6A /* main.m */; };
 		E758EB2B1AAC688E002A2F6A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E758EB2A1AAC688E002A2F6A /* AppDelegate.m */; };
 		E758EB2E1AAC688E002A2F6A /* _D_Maze.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E758EB2C1AAC688E002A2F6A /* _D_Maze.xcdatamodeld */; };
@@ -27,6 +31,18 @@
 		E76AA1961AAF8392000637AA /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E76AA1951AAF8392000637AA /* SpriteKit.framework */; };
 		E76AA1981AAF85E6000637AA /* Xcode.png in Resources */ = {isa = PBXBuildFile; fileRef = E76AA1971AAF85E6000637AA /* Xcode.png */; };
 		E76AA19A1AAFA8C8000637AA /* waiting for ads.png in Resources */ = {isa = PBXBuildFile; fileRef = E76AA1991AAFA8C8000637AA /* waiting for ads.png */; };
+		E76AA19D1AAFB081000637AA /* WelcomeScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E76AA19C1AAFB081000637AA /* WelcomeScreenViewController.m */; };
+		E76AA1F51AB0CE40000637AA /* william_wall_01_D.png in Resources */ = {isa = PBXBuildFile; fileRef = E76AA1F41AB0CE40000637AA /* william_wall_01_D.png */; };
+		E76AA2001AB0CF78000637AA /* ground_grass_gen_01.png in Resources */ = {isa = PBXBuildFile; fileRef = E76AA1F61AB0CF78000637AA /* ground_grass_gen_01.png */; };
+		E76AA2011AB0CF78000637AA /* ground_grass_gen_02.png in Resources */ = {isa = PBXBuildFile; fileRef = E76AA1F71AB0CF78000637AA /* ground_grass_gen_02.png */; };
+		E76AA2021AB0CF78000637AA /* ground_grass_gen_03.png in Resources */ = {isa = PBXBuildFile; fileRef = E76AA1F81AB0CF78000637AA /* ground_grass_gen_03.png */; };
+		E76AA2031AB0CF78000637AA /* ground_grass_gen_04.png in Resources */ = {isa = PBXBuildFile; fileRef = E76AA1F91AB0CF78000637AA /* ground_grass_gen_04.png */; };
+		E76AA2041AB0CF78000637AA /* ground_grass_gen_05.png in Resources */ = {isa = PBXBuildFile; fileRef = E76AA1FA1AB0CF78000637AA /* ground_grass_gen_05.png */; };
+		E76AA2051AB0CF78000637AA /* ground_grass_gen_06.png in Resources */ = {isa = PBXBuildFile; fileRef = E76AA1FB1AB0CF78000637AA /* ground_grass_gen_06.png */; };
+		E76AA2061AB0CF78000637AA /* ground_grass_gen_07.png in Resources */ = {isa = PBXBuildFile; fileRef = E76AA1FC1AB0CF78000637AA /* ground_grass_gen_07.png */; };
+		E76AA2071AB0CF78000637AA /* ground_grass_gen_08.png in Resources */ = {isa = PBXBuildFile; fileRef = E76AA1FD1AB0CF78000637AA /* ground_grass_gen_08.png */; };
+		E76AA2081AB0CF78000637AA /* ground_grass_gen_09.png in Resources */ = {isa = PBXBuildFile; fileRef = E76AA1FE1AB0CF78000637AA /* ground_grass_gen_09.png */; };
+		E76AA2091AB0CF78000637AA /* ground_grass_gen_00.png in Resources */ = {isa = PBXBuildFile; fileRef = E76AA1FF1AB0CF78000637AA /* ground_grass_gen_00.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +56,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E758EB221AAC688E002A2F6A /* 3D Maze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "3D Maze.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E711FC721AB894F0007D34AB /* eye.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eye.png; sourceTree = "<group>"; };
+		E72BF9C81B2AD9AF00ED7BF9 /* HelpIcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpIcon.h; sourceTree = "<group>"; };
+		E72BF9C91B2AD9AF00ED7BF9 /* HelpIcon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpIcon.m; sourceTree = "<group>"; };
+		E72BF9CF1B2AE0FE00ED7BF9 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		E72BF9D01B2AE0FE00ED7BF9 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		E72BF9D41B2AE5D900ED7BF9 /* tutor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tutor.png; sourceTree = "<group>"; };
+		E758EB221AAC688E002A2F6A /* 3D Maze Real.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "3D Maze Real.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E758EB261AAC688E002A2F6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E758EB271AAC688E002A2F6A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E758EB291AAC688E002A2F6A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,7 +73,7 @@
 		E758EB331AAC688E002A2F6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E758EB351AAC688E002A2F6A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E758EB381AAC688E002A2F6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		E758EB3E1AAC688E002A2F6A /* 3D MazeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "3D MazeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E758EB3E1AAC688E002A2F6A /* 3D Maze RealTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "3D Maze RealTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E758EB431AAC688E002A2F6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E758EB441AAC688E002A2F6A /* _D_MazeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _D_MazeTests.m; sourceTree = "<group>"; };
 		E758EB4E1AAC819A002A2F6A /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
@@ -74,6 +96,19 @@
 		E76AA1951AAF8392000637AA /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
 		E76AA1971AAF85E6000637AA /* Xcode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Xcode.png; sourceTree = "<group>"; };
 		E76AA1991AAFA8C8000637AA /* waiting for ads.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "waiting for ads.png"; sourceTree = "<group>"; };
+		E76AA19B1AAFB081000637AA /* WelcomeScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeScreenViewController.h; sourceTree = "<group>"; };
+		E76AA19C1AAFB081000637AA /* WelcomeScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeScreenViewController.m; sourceTree = "<group>"; };
+		E76AA1F41AB0CE40000637AA /* william_wall_01_D.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = william_wall_01_D.png; sourceTree = "<group>"; };
+		E76AA1F61AB0CF78000637AA /* ground_grass_gen_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ground_grass_gen_01.png; sourceTree = "<group>"; };
+		E76AA1F71AB0CF78000637AA /* ground_grass_gen_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ground_grass_gen_02.png; sourceTree = "<group>"; };
+		E76AA1F81AB0CF78000637AA /* ground_grass_gen_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ground_grass_gen_03.png; sourceTree = "<group>"; };
+		E76AA1F91AB0CF78000637AA /* ground_grass_gen_04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ground_grass_gen_04.png; sourceTree = "<group>"; };
+		E76AA1FA1AB0CF78000637AA /* ground_grass_gen_05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ground_grass_gen_05.png; sourceTree = "<group>"; };
+		E76AA1FB1AB0CF78000637AA /* ground_grass_gen_06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ground_grass_gen_06.png; sourceTree = "<group>"; };
+		E76AA1FC1AB0CF78000637AA /* ground_grass_gen_07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ground_grass_gen_07.png; sourceTree = "<group>"; };
+		E76AA1FD1AB0CF78000637AA /* ground_grass_gen_08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ground_grass_gen_08.png; sourceTree = "<group>"; };
+		E76AA1FE1AB0CF78000637AA /* ground_grass_gen_09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ground_grass_gen_09.png; sourceTree = "<group>"; };
+		E76AA1FF1AB0CF78000637AA /* ground_grass_gen_00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ground_grass_gen_00.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,8 +145,8 @@
 		E758EB231AAC688E002A2F6A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E758EB221AAC688E002A2F6A /* 3D Maze.app */,
-				E758EB3E1AAC688E002A2F6A /* 3D MazeTests.xctest */,
+				E758EB221AAC688E002A2F6A /* 3D Maze Real.app */,
+				E758EB3E1AAC688E002A2F6A /* 3D Maze RealTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -123,16 +158,35 @@
 				E758EB2A1AAC688E002A2F6A /* AppDelegate.m */,
 				E76AA1971AAF85E6000637AA /* Xcode.png */,
 				E76AA1991AAFA8C8000637AA /* waiting for ads.png */,
+				E76AA1F41AB0CE40000637AA /* william_wall_01_D.png */,
+				E711FC721AB894F0007D34AB /* eye.png */,
+				E72BF9D41B2AE5D900ED7BF9 /* tutor.png */,
 				E758EB2F1AAC688E002A2F6A /* ViewController.h */,
 				E758EB301AAC688E002A2F6A /* ViewController.m */,
 				E76AA1921AAF838A000637AA /* UserPanelScene.h */,
 				E76AA1931AAF838A000637AA /* UserPanelScene.m */,
+				E72BF9C81B2AD9AF00ED7BF9 /* HelpIcon.h */,
+				E72BF9C91B2AD9AF00ED7BF9 /* HelpIcon.m */,
 				E76AA1881AAF6B29000637AA /* MazeScene.h */,
 				E76AA1891AAF6B29000637AA /* MazeScene.m */,
 				E76AA1851AAF6AE6000637AA /* CoordinateManager.h */,
 				E76AA1861AAF6AED000637AA /* CoordinateManager.m */,
+				E76AA1F61AB0CF78000637AA /* ground_grass_gen_01.png */,
+				E76AA1F71AB0CF78000637AA /* ground_grass_gen_02.png */,
+				E76AA1F81AB0CF78000637AA /* ground_grass_gen_03.png */,
+				E76AA1F91AB0CF78000637AA /* ground_grass_gen_04.png */,
+				E76AA1FA1AB0CF78000637AA /* ground_grass_gen_05.png */,
+				E76AA1FB1AB0CF78000637AA /* ground_grass_gen_06.png */,
+				E76AA1FC1AB0CF78000637AA /* ground_grass_gen_07.png */,
+				E76AA1FD1AB0CF78000637AA /* ground_grass_gen_08.png */,
+				E76AA1FE1AB0CF78000637AA /* ground_grass_gen_09.png */,
+				E76AA1FF1AB0CF78000637AA /* ground_grass_gen_00.png */,
 				E758EB511AAC81AB002A2F6A /* Model */,
 				E758EB321AAC688E002A2F6A /* Main.storyboard */,
+				E72BF9CF1B2AE0FE00ED7BF9 /* ImageViewController.h */,
+				E72BF9D01B2AE0FE00ED7BF9 /* ImageViewController.m */,
+				E76AA19B1AAFB081000637AA /* WelcomeScreenViewController.h */,
+				E76AA19C1AAFB081000637AA /* WelcomeScreenViewController.m */,
 				E758EB351AAC688E002A2F6A /* Images.xcassets */,
 				E758EB371AAC688E002A2F6A /* LaunchScreen.xib */,
 				E758EB2C1AAC688E002A2F6A /* _D_Maze.xcdatamodeld */,
@@ -187,9 +241,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E758EB211AAC688D002A2F6A /* 3D Maze */ = {
+		E758EB211AAC688D002A2F6A /* 3D Maze Real */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E758EB481AAC688E002A2F6A /* Build configuration list for PBXNativeTarget "3D Maze" */;
+			buildConfigurationList = E758EB481AAC688E002A2F6A /* Build configuration list for PBXNativeTarget "3D Maze Real" */;
 			buildPhases = (
 				E758EB1E1AAC688D002A2F6A /* Sources */,
 				E758EB1F1AAC688D002A2F6A /* Frameworks */,
@@ -199,14 +253,14 @@
 			);
 			dependencies = (
 			);
-			name = "3D Maze";
+			name = "3D Maze Real";
 			productName = "3D Maze";
-			productReference = E758EB221AAC688E002A2F6A /* 3D Maze.app */;
+			productReference = E758EB221AAC688E002A2F6A /* 3D Maze Real.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E758EB3D1AAC688E002A2F6A /* 3D MazeTests */ = {
+		E758EB3D1AAC688E002A2F6A /* 3D Maze RealTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E758EB4B1AAC688E002A2F6A /* Build configuration list for PBXNativeTarget "3D MazeTests" */;
+			buildConfigurationList = E758EB4B1AAC688E002A2F6A /* Build configuration list for PBXNativeTarget "3D Maze RealTests" */;
 			buildPhases = (
 				E758EB3A1AAC688E002A2F6A /* Sources */,
 				E758EB3B1AAC688E002A2F6A /* Frameworks */,
@@ -217,9 +271,9 @@
 			dependencies = (
 				E758EB401AAC688E002A2F6A /* PBXTargetDependency */,
 			);
-			name = "3D MazeTests";
+			name = "3D Maze RealTests";
 			productName = "3D MazeTests";
-			productReference = E758EB3E1AAC688E002A2F6A /* 3D MazeTests.xctest */;
+			productReference = E758EB3E1AAC688E002A2F6A /* 3D Maze RealTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -233,6 +287,7 @@
 				TargetAttributes = {
 					E758EB211AAC688D002A2F6A = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = RG37NH3E5V;
 					};
 					E758EB3D1AAC688E002A2F6A = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -240,7 +295,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E758EB1D1AAC688D002A2F6A /* Build configuration list for PBXProject "3D Maze" */;
+			buildConfigurationList = E758EB1D1AAC688D002A2F6A /* Build configuration list for PBXProject "3D Maze Real" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -253,8 +308,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E758EB211AAC688D002A2F6A /* 3D Maze */,
-				E758EB3D1AAC688E002A2F6A /* 3D MazeTests */,
+				E758EB211AAC688D002A2F6A /* 3D Maze Real */,
+				E758EB3D1AAC688E002A2F6A /* 3D Maze RealTests */,
 			);
 		};
 /* End PBXProject section */
@@ -265,9 +320,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				E758EB341AAC688E002A2F6A /* Main.storyboard in Resources */,
+				E76AA2091AB0CF78000637AA /* ground_grass_gen_00.png in Resources */,
 				E758EB391AAC688E002A2F6A /* LaunchScreen.xib in Resources */,
+				E76AA2011AB0CF78000637AA /* ground_grass_gen_02.png in Resources */,
+				E76AA2081AB0CF78000637AA /* ground_grass_gen_09.png in Resources */,
+				E711FC731AB894F0007D34AB /* eye.png in Resources */,
+				E76AA2061AB0CF78000637AA /* ground_grass_gen_07.png in Resources */,
 				E76AA19A1AAFA8C8000637AA /* waiting for ads.png in Resources */,
+				E72BF9D51B2AE5D900ED7BF9 /* tutor.png in Resources */,
+				E76AA2001AB0CF78000637AA /* ground_grass_gen_01.png in Resources */,
+				E76AA1F51AB0CE40000637AA /* william_wall_01_D.png in Resources */,
+				E76AA2051AB0CF78000637AA /* ground_grass_gen_06.png in Resources */,
+				E76AA2021AB0CF78000637AA /* ground_grass_gen_03.png in Resources */,
+				E76AA2041AB0CF78000637AA /* ground_grass_gen_05.png in Resources */,
+				E76AA2071AB0CF78000637AA /* ground_grass_gen_08.png in Resources */,
 				E758EB361AAC688E002A2F6A /* Images.xcassets in Resources */,
+				E76AA2031AB0CF78000637AA /* ground_grass_gen_04.png in Resources */,
 				E76AA1981AAF85E6000637AA /* Xcode.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +354,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E72BF9D11B2AE0FE00ED7BF9 /* ImageViewController.m in Sources */,
 				E758EB541AAC81B8002A2F6A /* Position.m in Sources */,
 				E758EB5A1AAC9D65002A2F6A /* NodeGrid.m in Sources */,
 				E758EB501AAC819A002A2F6A /* Node.m in Sources */,
@@ -293,6 +362,8 @@
 				E758EB2B1AAC688E002A2F6A /* AppDelegate.m in Sources */,
 				E758EB281AAC688E002A2F6A /* main.m in Sources */,
 				E758EB311AAC688E002A2F6A /* ViewController.m in Sources */,
+				E72BF9CA1B2AD9AF00ED7BF9 /* HelpIcon.m in Sources */,
+				E76AA19D1AAFB081000637AA /* WelcomeScreenViewController.m in Sources */,
 				E76AA1811AAF51E9000637AA /* Maze.m in Sources */,
 				E758EB2E1AAC688E002A2F6A /* _D_Maze.xcdatamodeld in Sources */,
 				E76AA18A1AAF6B29000637AA /* MazeScene.m in Sources */,
@@ -314,7 +385,7 @@
 /* Begin PBXTargetDependency section */
 		E758EB401AAC688E002A2F6A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E758EB211AAC688D002A2F6A /* 3D Maze */;
+			target = E758EB211AAC688D002A2F6A /* 3D Maze Real */;
 			targetProxy = E758EB3F1AAC688E002A2F6A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -418,20 +489,28 @@
 		E758EB491AAC688E002A2F6A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "3D Maze/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "3D Maze Real";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		E758EB4A1AAC688E002A2F6A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "3D Maze/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "3D Maze Real";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -449,7 +528,7 @@
 				);
 				INFOPLIST_FILE = "3D MazeTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "3D Maze RealTests";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/3D Maze.app/3D Maze";
 			};
 			name = Debug;
@@ -464,7 +543,7 @@
 				);
 				INFOPLIST_FILE = "3D MazeTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "3D Maze RealTests";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/3D Maze.app/3D Maze";
 			};
 			name = Release;
@@ -472,7 +551,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E758EB1D1AAC688D002A2F6A /* Build configuration list for PBXProject "3D Maze" */ = {
+		E758EB1D1AAC688D002A2F6A /* Build configuration list for PBXProject "3D Maze Real" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E758EB461AAC688E002A2F6A /* Debug */,
@@ -481,7 +560,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E758EB481AAC688E002A2F6A /* Build configuration list for PBXNativeTarget "3D Maze" */ = {
+		E758EB481AAC688E002A2F6A /* Build configuration list for PBXNativeTarget "3D Maze Real" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E758EB491AAC688E002A2F6A /* Debug */,
@@ -490,7 +569,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E758EB4B1AAC688E002A2F6A /* Build configuration list for PBXNativeTarget "3D MazeTests" */ = {
+		E758EB4B1AAC688E002A2F6A /* Build configuration list for PBXNativeTarget "3D Maze RealTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E758EB4C1AAC688E002A2F6A /* Debug */,
